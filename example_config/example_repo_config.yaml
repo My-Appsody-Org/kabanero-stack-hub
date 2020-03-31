@@ -16,9 +16,13 @@ stacks:
       - url: https://github.com/kabanero-io/collections/releases/download/0.6.0-rc.1/kabanero-index.yaml
         include:
           - java-microprofile
+      - url: https://github.com/nastacio/java-spring-boot2-liberty/releases/download/latest/my-org-repository-index.yaml
   - name: incubator
     repos:
       - url: https://github.com/appsody/stacks/releases/download/java-openliberty-v0.2.0/incubator-index.yaml
+  - name: my-org-stack-hub
+    repos:
+      - url: https://github.com/nastacio/java-spring-boot2-liberty/releases/download/latest/my-org-repository-index.yaml
 image-org: kabanero
 image-registry: docker.io
 nginx-image-name: kabanero-index
